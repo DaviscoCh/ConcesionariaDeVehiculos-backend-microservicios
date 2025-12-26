@@ -1,0 +1,12 @@
+# Dependencias (Evita subir carpetas pesadas)
+node_modules/
+
+# Variables de entorno (Seguridad: no subir contraseñas o llaves)
+*.env
+.env
+
+# Archivos del sistema y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
